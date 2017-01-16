@@ -1,0 +1,162 @@
+@charset "utf-8";
+.title{
+    position: absolute;
+    top: 1.3rem;
+    right: 3rem;
+    font-size: 14px;
+    font-weight:normal;
+    color: white;
+
+}
+@media only screen and (max-width: 320px) {
+    .title{
+        position: absolute;
+        top: 1.3rem;
+        right: 2rem;
+        font-size: 14px;
+        font-weight:normal;
+        color: white;
+
+    }
+}
+body{
+    background: url("../images/back.png") no-repeat;
+    background-size: 100%;
+    font-family: arial,微软雅黑,\5b8b\4f53,Verdana;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+.wwj{
+    position: relative;
+}
+
+.logo{
+    float: left;
+    width: 8rem;
+    height: 4rem;
+    display: block;
+    background: url(../images/log.png) no-repeat;
+    background-size:200%;
+    text-indent: -999em;
+    margin-left: 0px;
+}
+.nav{
+    height: 15rem;
+    position:relative;
+    top: 6rem;
+    left: 0rem;
+    color: #fff;
+}
+.nav li a{
+    font-size: 14px;
+    color: white;
+    font-family:微软雅黑,\5b8b\4f53,Verdana;
+}
+.nav li img{
+    margin-top: 0.8rem;
+    width: 30%;
+}
+.product{
+    position: absolute;
+    left: 2rem;
+    top: -1.6rem;
+    width: 3.8rem;
+    height: 3.8rem;
+    background-color: rgba(255, 255, 255, 0.29);
+    border-radius: 50%;
+    line-height: 1rem;
+    text-align: center;
+}
+.index{
+    position: absolute;
+    left: 2rem;
+    top: 5.4rem;
+    width: 3.8rem;
+    height: 3.8rem;
+    background-color: #445B91;
+    border-radius: 50%;
+    line-height: 1rem;
+    text-align: center;
+}
+
+.partner{
+    position: absolute;
+    left: 8rem;
+    top: 1rem;
+    width: 3.8rem;
+    height: 3.8rem;
+    background-color: rgba(255, 255, 255, 0.29);
+    border-radius: 50%;
+    line-height: 1rem;
+    text-align: center;
+}
+.case{
+    position: absolute;
+    left: 8rem;
+    top: 9rem;
+    width: 3.8rem;
+    height: 3.8rem;
+    background-color: rgba(255, 255, 255, 0.29);
+    border-radius: 50%;
+    line-height: 1rem;
+    text-align: center;
+}
+.aboutus{
+    position: absolute;
+    left: 2rem;
+    top: 12rem;
+    width: 3.8rem;
+    height: 3.8rem;
+    background-color: rgba(255, 255, 255, 0.29);
+    border-radius: 50%;
+    line-height: 1rem;
+    text-align: center;
+}
+.Productseries{
+    width: 45%;
+    position: relative;
+    bottom: 8rem;
+    left:56%;
+    border-radius: 0.5rem 0 0 0.5rem;
+
+}
+.Productseries li{
+    overflow: hidden;
+    background-color:#004892 ;
+    color: white;
+    line-height: 2rem;
+    text-align: center;
+    font-size: 18px;
+}
+.Productseries li a{
+    display: block;
+    border-top: 1px solid #4E9CEE;
+    color: white;
+    font-size: 16px;
+    float: right;
+    width: 150px;
+}
+.huan{
+    position: absolute;
+    top:15%;
+    left: -4%;
+    background:url("../images/huan.png")no-repeat;
+    background-size: 100%;
+    width: 65%;
+    height: 10rem;
+
+}
+#Productseries{
+    display: none;
+    overflow: hidden;
+}
