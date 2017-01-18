@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width,height=device-height, user-scalable=no,initial-scale=1, minimum-scale=1, maximum-scale=1,target-densitydpi=device-dpi ">
+    <meta charset="UTF-8">
+    <script src="js/rem.js"></script>
+    <title>微蜗居|新零售行业|智慧商圈|自助终端|客无忧——中小商家营销利器</title>
+    <meta name="keywords" content="餐饮POS收银|付呗|客来乐|微信支付|智慧社区|便利店|酒店自住终端|钱方好近|微蜗居|收钱吧|零售行业|客无忧|小区管家|物业App|客来乐|智慧商圈|本地生活服务|社区APP开发|外卖APP"/>
+    <meta name="description" content="微蜗居是领先的本地化商户营销平台，创新的零售行业新业态。客无忧是基于中小商户的一款营销工具，用户通过目前主流的移动支付（支付宝、微信）线下付款，就能与商户建立起连接关系，客无忧对到店消费的客人信息可实现管理及二次营销，通过支付由弱关系逐渐变为强关系，从而由线下可转到线上增加消费的频次。"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/animation.css"/>
+    <script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <style>
+      .product{
+          cursor: pointer;
+      }
+    </style>
+</head>
+<body>
+<div class="wwj">
+    <h1 class="logo">微蜗居 客无忧——中小商家营销利器</h1>
+    <h1 class="title">杭州腾纵科技有限公司</h1>
+</div>
+<nav class="nav">
+    <ul>
+        <li id="huan" class="huan mod_info1__logo1 mod_info1__logoall"></li>
+        <li class="index">
+            <a href="product.html">
+            <img src="images/nav1.png" alt=""/><br/>
+            <span>项目简介</span>
+            </a>
+        </li>
+        <li class="product" id="product">
+                <img src="images/nav2.png" alt=""/><br/>
+                <span>产品系列</span>
+        </li>
+
+        <li class="partner">
+            <a href="partner.html"><img src="images/nav3.png" alt=""/><br/>
+                <span>城市合伙人</span></a>
+
+        </li>
+        <li class="case">
+            <a href="case.html">
+                <img src="images/nav4.png" alt=""/><br/>
+                <span>成功案例</span>
+            </a>
+
+            </li>
+        <li class="aboutus">
+            <a href="aboutus.html">
+                <img src="images/nav5.png" alt=""/><br/>
+                <span>关于我们</span>
+            </a>
+
+        </li>
+
+    </ul>
+</nav>
+
+<div  id="Productseries" class="Productseries" >
+    <ul>
+        <li>产品系列</li>
+        <li><a href="hotel-terminal.html">酒店自助终端 ></a></li>
+        <li><a href="cash-register.html">收银自助终端 ></a></li>
+        <li><a href="self-catering.html">餐饮自助终端 ></a></li>
+        <li><a href="kewuyou.html">客无忧软件 ></a></li>
+    </ul>
+</div>
+
+<script>
+   $(document).ready(function(){
+       $('body').on('click', '#product', function (e) {
+           $("#Productseries").slideToggle("slow");
+       });
+
+   });
+</script>
+
+</body>
+</html>
