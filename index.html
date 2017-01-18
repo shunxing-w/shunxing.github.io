@@ -67,10 +67,19 @@
 </div>
 
 <script>
-   $(document).ready(function(){
-       $("#product").click(function(){
-           $("#Productseries").slideToggle("slow");
-       });
+    $(document).ready(function(){
+//       $("#product").click(function(){
+//           $("#Productseries").slideToggle("slow");
+//       });
+       var obj = document.getElementById('product');
+       var Productseries = document.getElementById('Productseries');
+       obj.addEventListener('touchstart', function(event) {
+           // 如果这个元素的位置内只有一个手指的话
+           if (event.targetTouches.length == 1) {
+               event.preventDefault();// 阻止浏览器默认事件，重要
+               Productseries.slideToggle("slow");
+           }
+       }, false);
    });
 </script>
 
