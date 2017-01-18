@@ -1,7 +1,7 @@
 /*2017-1-16-shunxing*/
 @charset "utf-8";
-/*Ê×Ò³*/
-/*²úÆ·ÖĞĞÄ*/
+/*é¦–é¡µ*/
+/*äº§å“ä¸­å¿ƒ*/
 .content{
     height: 10rem;
     background-color: #EEEDF2;
@@ -97,7 +97,7 @@
     margin-right: 0.4rem;
     padding: 0 0.4rem;
 }
-/*ÏîÄ¿ÓÅÊÆ*/
+/*é¡¹ç›®ä¼˜åŠ¿*/
 .project{
     border: 1px dashed #FD861E;
     margin: 0 1rem;
@@ -169,7 +169,7 @@
     background-color:#FF940A;
     color: white;
 }
-/*·şÎñÌåÏµ*/
+/*æœåŠ¡ä½“ç³»*/
 .servicesystem p{
     text-align: center;
     font-size:0.8rem;
@@ -178,7 +178,7 @@
 .servicesystem p span{
     color:#FE6634 ;
 }
-/*ºÏ×÷ÔËÓªÓÅÊÆ*/
+/*åˆä½œè¿è¥ä¼˜åŠ¿*/
 .advantage{
     overflow: hidden;
 }
@@ -347,7 +347,7 @@
 }
 
 
-    /*²ÍÒû×ÔÖúÖÕ¶Ë*/
+    /*é¤é¥®è‡ªåŠ©ç»ˆç«¯*/
     .kwy{
 
     }
@@ -505,7 +505,7 @@
         margin-right: 1%;
     }
     .cy_title p{
-        font-family: arial, Î¢ÈíÑÅºÚ, \5b8b\4f53, Verdana;
+        font-family: arial, å¾®è½¯é›…é»‘, \5b8b\4f53, Verdana;
         display: block;
         color: #241915;
         float: left;
@@ -514,7 +514,7 @@
     .cy_title p span{
         color: #231816;
         font-size: 0.8rem;
-        font-family: arial, Î¢ÈíÑÅºÚ, \5b8b\4f53, Verdana;
+        font-family: arial, å¾®è½¯é›…é»‘, \5b8b\4f53, Verdana;
     }
     .zzhct{
         background: url("../images/zhcy_11.png") no-repeat;
@@ -557,7 +557,7 @@
         font-size: 1.2rem;
         font-weight: 900;
         color:  #00A0EB;
-        font-family: arial, Î¢ÈíÑÅºÚ, \5b8b\4f53, Verdana;
+        font-family: arial, å¾®è½¯é›…é»‘, \5b8b\4f53, Verdana;
     }
     .self_advantage p:nth-child(1){
         text-align: center;
@@ -655,8 +655,8 @@
         text-align: center;
         color: #019FE9;
     }
-    /*³ÇÊĞºÏ»ïÈË*/
-    /*¿ÍÎŞÓÇ*/
+    /*åŸå¸‚åˆä¼™äºº*/
+    /*å®¢æ— å¿§*/
     .kwy{
 
     }
@@ -679,7 +679,7 @@
         text-align: center;
         color: #4B4B4B;
         font-size: 0.8rem;
-        font-family:  Î¢ÈíÑÅºÚ, \5b8b\4f53, Verdana;
+        font-family:  å¾®è½¯é›…é»‘, \5b8b\4f53, Verdana;
     }
     .kwy_text div p{
         float: left;
@@ -794,7 +794,7 @@
         margin-right: 1%;
     }
     .cy_title p{
-        font-family: arial, Î¢ÈíÑÅºÚ, \5b8b\4f53, Verdana;
+        font-family: arial, å¾®è½¯é›…é»‘, \5b8b\4f53, Verdana;
         display: block;
         color: #241915;
         float: left;
@@ -803,7 +803,7 @@
     .cy_title p span{
         color: #231816;
         font-size: 0.8rem;
-        font-family: arial, Î¢ÈíÑÅºÚ, \5b8b\4f53, Verdana;
+        font-family: arial, å¾®è½¯é›…é»‘, \5b8b\4f53, Verdana;
     }
     .kwy_pric{
         text-align: center;
@@ -821,7 +821,7 @@
     }
 }
 
-    /*¾Æµê×ÔÖúÖÕ¶Ë*/
+    /*é…’åº—è‡ªåŠ©ç»ˆç«¯*/
     .inpapo li{
         overflow: hidden;
         padding: 0 1.4rem;
@@ -837,7 +837,7 @@
         border-radius: 1rem;
         color: white;
         font-size: 1rem;
-        font-family: arial, Î¢ÈíÑÅºÚ, \5b8b\4f53, Verdana;
+        font-family: arial, å¾®è½¯é›…é»‘, \5b8b\4f53, Verdana;
         text-align: center;
     }
     .inpapo li:nth-child(1) span{
@@ -993,7 +993,7 @@
 
 
 
-    /*ÊÕÒø×ÔÖúÖÕ¶Ë*/
+    /*æ”¶é“¶è‡ªåŠ©ç»ˆç«¯*/
     .sy_introduce{
         background-color: #E8E7EC;
     }
@@ -1050,13 +1050,13 @@
         color: #DF2A21;
         font-size:1rem;   display: block;    float: left;
         font-weight: 900;
-        font-family: Î¢ÈíÑÅºÚ, \5b8b\4f53, Verdana;
+        font-family: å¾®è½¯é›…é»‘, \5b8b\4f53, Verdana;
     }
     .Price span:nth-child(3){
         color: #DF2A21;
         font-size:1rem;   display: block;    float: left;
         font-weight: 900;
-        font-family: Î¢ÈíÑÅºÚ, \5b8b\4f53, Verdana;
+        font-family: å¾®è½¯é›…é»‘, \5b8b\4f53, Verdana;
     }
     .Price span:nth-child(2){
         float: left;
@@ -1173,7 +1173,7 @@
 }
 
 
-    /*¹ØÓÚÎÒÃÇ*/
+    /*å…³äºæˆ‘ä»¬*/
     .brief{
         position: relative;
     }
@@ -1196,7 +1196,7 @@
         margin-top: 1rem;
     }
     .service li{
-        margin-right: 1.8rem;
+        margin-right: 1.6rem;
         padding-top: 1rem;
         float: left;
         width: 5rem;
@@ -1284,7 +1284,7 @@
         font-size: 1rem;
         mso-ansi-font-weight: 900;
     }
-/*³É¹¦°¸Àı*/
+/*æˆåŠŸæ¡ˆä¾‹*/
     .agent ul li{
         overflow: hidden;
         padding: 1rem 1.8rem;
