@@ -11,6 +11,12 @@
     <link rel="stylesheet" href="css/animation.css"/>
 
     <script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+        .ui-loader{
+            display: none;
+        }
+    </style>
 </head>
 <body>
 <div class="wwj">
@@ -67,20 +73,13 @@
 </div>
 
 <script>
-    $(document).ready(function(){
+   $(document).ready(function(){
+       $("#product").on("tap",function(){
+           $("#Productseries").slideToggle("slow");
+       });
 //       $("#product").click(function(){
 //           $("#Productseries").slideToggle("slow");
 //       });
-       var obj = document.getElementById('product');
-       var Productseries = document.getElementById('Productseries');
-        var obj = document.getElementById('product');
-       var Productseries = document.getElementById('Productseries');
-       obj.ontouchstart = function(e){
-           var touch = e.touches[0];
-           var x = Number(touch.clientX);
-           var y = Number(touch.clientY);
-           Productseries.slideToggle("slow");
-       };
    });
 </script>
 
