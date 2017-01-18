@@ -69,12 +69,10 @@
 </div>
 
 <script>
-   $(document).ready(function(){
-
-       $("#product").click(function(){
+  $(document).ready(function(){
+       $('body').on('click', '#product', function (e) {
            $("#Productseries").slideToggle("slow");
        });
-
 
    });
 </script>
