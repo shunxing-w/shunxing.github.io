@@ -166,8 +166,8 @@ a{
 .phone img{width: 100%}
 .phone{
 /*background-color: yellow;*/
-    position: absolute;
-    bottom:5px;
+    position: fixed;
+    bottom:20px;
     right: 1px;
     width: 3.2rem;
     height:3.2rem;
@@ -175,8 +175,8 @@ a{
 }
 .qq img{width: 100%}
 .qq{
-    position: absolute;
-    bottom:5px;
+    position: fixed;
+    bottom:20px;
     right: 90px;
     width: 3.2rem;
     height:3.2rem;
