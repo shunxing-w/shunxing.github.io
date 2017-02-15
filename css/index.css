@@ -165,10 +165,11 @@ a{
 }
 .phone img{width: 100%}
 .phone{
-    position: fixed;
-    top: 2.8rem;
+/*background-color: yellow;*/
+    position: absolute;
+    bottom:30px;
     right: 1px;
     width: 3.2rem;
     height:3.2rem;
-    /*transform:rotate(45deg)*/
+
 }
