@@ -166,19 +166,18 @@ a{
 .phone img{width: 100%}
 .phone{
 /*background-color: yellow;*/
-    position: fixed;
-    bottom:20px;
-    right: 1px;
+    position: relative;
+    bottom: -100px;
+    left: 250px;
     width: 3.2rem;
     height:3.2rem;
 
 }
 .qq img{width: 100%}
 .qq{
-    position: fixed;
-    bottom:20px;
-    right: 90px;
+    position: relative;
+    bottom: -32px;
+    left: 180px;
     width: 3.2rem;
     height:3.2rem;
 }
-
