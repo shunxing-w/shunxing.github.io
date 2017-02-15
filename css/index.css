@@ -166,19 +166,18 @@ a{
 .phone img{width: 100%}
 .phone{
 /*background-color: yellow;*/
-    float:left;
+    position: absolute;
+    bottom:1rem;
+    right: 1px;
     width: 3.2rem;
     height:3.2rem;
 
 }
 .qq img{width: 100%}
 .qq{
-    float:left;
+    position: absolute;
+    bottom:1rem;
+    right: 90px;
     width: 3.2rem;
     height:3.2rem;
-}
-.consult{
-    overflow: hidden;
-    position: relative;
-    top: 5rem;left:8rem;
 }
